@@ -1,0 +1,48 @@
+h1{
+    padding-left: 500px;
+    border: 2px solid;
+    color: #0000ff
+}
+p{
+    color: #ff0000;
+}
+ol{
+    margin-left: 100px;
+    padding-left: 200px;
+    border: 2px solid;
+    color: #ff00ff
+}
+ul{
+    margin-left: 100px;
+    padding-left: 200px;
+    border: 2px solid;
+    color: #0000ff;
+}
+.design{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    justify-content: space-evenly;
+}
+.header a:visited{
+    color: red;
+    text-decoration: none;
+}
+.header a:link{
+    color:black;
+    text-decoration: none;
+}
+.hello{
+    position: relative;
+}
+.hello p{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+}
+.hello:hover img{
+    transform: scale(1.2);
+}
+*{
+    background-color: #ffd700;
+}
